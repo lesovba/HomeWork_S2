@@ -9,8 +9,8 @@ int GetThreeDigitNumber()
 
 int ShowSecondDigit(int num)
 {
-    int second_digit = num%100;
-    Console.WriteLine("Вторая цифра числа равна" + second_digit);
+    int second_digit = (num%100)/10;
+    Console.WriteLine("Вторая цифра числа равна: " + second_digit);
     return second_digit;
 }
 
